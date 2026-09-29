@@ -1,0 +1,4 @@
+[ERROR] 2026-09-27T09:12:44.201Z - SMSGatewayError: Invalid phone number format: '+1 555 0199'
+    at SMSClient.validateAndSend (src/services/sms.js:42:11)
+    at NotificationDispatcher.process (src/dispatcher.js:88:24)
+    at async RouteHandler.handleSmsRequest (src/routes/notifications.js:15:5)
