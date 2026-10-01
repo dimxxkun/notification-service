@@ -7,6 +7,4 @@ This service listens for notification events from the internal message queue and
 
 ## Tech Stack
 - Node.js / Express
-- Redis for message queuing
-- Kafka message streaming
 - SendGrid & Twilio integrations
